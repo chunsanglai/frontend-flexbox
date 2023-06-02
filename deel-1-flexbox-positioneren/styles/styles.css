@@ -1,0 +1,79 @@
+/*Schrijf hier jouw CSS*/
+/* opdracht 1 */
+.opdracht-1 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* eind opdracht 1 */
+
+/* opdracht 2 */
+.opdracht-2 .flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-2 .flex-i {
+    flex-basis: 300px;
+}
+/* eind opdracht 2 */
+
+/* opdracht 3 */
+.opdracht-3 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-3 .flex-i-1 {
+    align-self: flex-start;
+}
+
+.opdracht-3 .flex-i-2 {
+    align-self: center;
+}
+
+.opdracht-3 .flex-i-3 {
+    align-self: flex-end;
+}
+/* eind opdracht 3 */
+
+/* opdracht 4 */
+.opdracht-4 .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px
+}
+/* eind opdracht 4 */
+
+/* opdracht 5 */
+.opdracht-5 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-self: space-between;
+    gap: 109px;
+}
+
+.opdracht-5 .flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opdracht-5 .flex-column:nth-of-type(1) {
+    align-items: flex-start;
+}
+
+.opdracht-5 .flex-column:nth-of-type(2) {
+    align-items: center;
+}
+
+.opdracht-5 .flex-column:nth-of-type(3) {
+    align-items: flex-end;
+}
+/* eind opdracht 5 */
+
+
+
